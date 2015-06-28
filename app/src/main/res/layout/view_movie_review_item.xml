@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:background="@drawable/back_list"
+    android:layout_width="match_parent" android:layout_marginBottom="4dp"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/photo"
+        android:textStyle="bold"
+        tools:text="Author" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/author"
+        android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/photo"
+        tools:text="I felt like this was a tremendous end to Nolan's Batman trilogy. The Dark Knight Rises may very well have been the weakest of all 3 films but when you're talking about a scale of this magnitude, it still makes this one of the best movies I've seen in the past few years.\r\n\r\nI expected a little more _Batman_ than we got (especially with a runtime of 2:45) but while the story around the fall of Bruce Wayne and Gotham City was good I didn't find it amazing. This might be in fact, one of my only criticisms—it was a long movie but still, maybe too short for the " />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent" >@color/md_orange_500</color>
+    <color name="primary" >@color/md_blue_500</color>
+    <color name="accentLight" >@color/md_orange_200</color>
+    <color name="primaryLight" >@color/md_blue_200</color>
+
+    <color name="primaryDark" >@color/md_blue_900</color>
+
+    <color name="textPrimary">@color/primary_text_default_material_light</color>
+    <color name="textSecondary">@color/secondary_text_default_material_light</color>
+</resources>

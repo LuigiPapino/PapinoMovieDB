@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white">
+
+    <com.marshalchen.ultimaterecyclerview.UltimateRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_white"
+        app:recyclerviewClipToPadding="true"
+        app:recyclerviewEmptyView="@layout/view_empty_movie_list"
+        app:recyclerviewPadding="0dp" />
+
+
+</FrameLayout>

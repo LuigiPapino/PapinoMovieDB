@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PapinoMovieDB</string>
+    <string name="title_movie_detail">Movie Detail</string>
+    <string name="movie_list_empty">No items</string>
+    <string name="ok">OK</string>
+    <string name="request_error">Error in retrieve data</string>
+    <string name="request_cancelled">Request cancelled</string>
+    <string name="loaded_more">Loaded more</string>
+    <string name="cast">Cast</string>
+    <string name="crew">Crew</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="transitionMovieThumbnail">transition_thumbnail</string>
+    <string name="reviews">Reviews</string>
+    <string name="action_image_save">Save</string>
+    <string name="title_activity_image_zoom">Image</string>
+    <string name="trailers">Trailers</string>
+    <string name="transition_zoom_image">transition_zoom_image</string>
+</resources>

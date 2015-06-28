@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.dragora.papinomoviedb.ui.movie_detail.CastFragment">
+
+    <com.marshalchen.ultimaterecyclerview.UltimateRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_white"
+        app:recyclerviewClipToPadding="false"
+        app:recyclerviewEmptyView="@layout/view_empty_movie_list"
+        app:recyclerviewPadding="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content" android:id="@+id/emptyView"
+        android:layout_height="wrap_content" android:layout_margin="16dp" android:visibility="gone"
+        android:text="@string/movie_list_empty"
+        android:textStyle="italic" />
+
+</RelativeLayout>
